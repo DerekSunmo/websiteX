@@ -33,7 +33,7 @@ const links = [
 const social = [
   {
     name: 'Twitter',
-    url: 'https://twitter.com/zolplay',
+    url: 'https://twitter.com/',
     icon: (props: any) => (
       <svg
         viewBox="0 0 37 34"
@@ -50,17 +50,17 @@ const social = [
   },
   {
     name: 'GitHub',
-    url: 'https://github.com/zolplay-cn',
+    url: 'https://github.com/',
     icon: BsGithub,
   },
   {
     name: 'YouTube',
-    url: 'https://youtube.com/@zolplay',
+    url: 'https://youtube.com/',
     icon: BsYoutube,
   },
   {
     name: 'Email',
-    url: 'mailto:contact@zolplay.com',
+    url: 'mailto:contact@jidian.space',
     icon: TbMail,
   },
 ]
@@ -69,9 +69,9 @@ export function Sidebar({ className }: { className?: string }) {
   const t = useTranslations('Root.Metadata')
 
   return (
-    <aside
-      className={clsxm('md:mx-0 md:w-44 md:flex-shrink-0 md:px-0', className)}
-    >
+    //<aside
+    //  className={clsxm('md:mx-0 md:w-44 md:flex-shrink-0 md:px-0', className)}
+   // >
       <motion.div className="md:sticky md:top-12 md:pr-4" layout layoutRoot>
         <Link
           href="/"
