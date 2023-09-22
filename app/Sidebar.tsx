@@ -87,7 +87,7 @@ export function Sidebar({ className }: { className?: string }) {
               damping: 30,
             }}
           >
-            /*<Logo className="w-7 md:w-10" />*/
+            
           </motion.span>
         </Link>
 
