@@ -87,7 +87,7 @@ export function Sidebar({ className }: { className?: string }) {
               damping: 30,
             }}
           >
-           <img src="https://img1.imgtp.com/2023/09/23/NpJxRZ9O.png" alt="公司Logo" className="w-7 md:w-10" />
+           <img src="https://img1.imgtp.com/2023/09/23/NpJxRZ9O.png" alt="公司Logo" className="w-14 md:w-20" />
 
           </motion.span>
         </Link>
