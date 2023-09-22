@@ -87,7 +87,7 @@ export function Sidebar({ className }: { className?: string }) {
               damping: 30,
             }}
           >
-            <Logo src="https://img1.imgtp.com/2023/09/23/NpJxRZ9O.png" style="width: 150px; height: auto;">
+          
           </motion.span>
         </Link>
 
