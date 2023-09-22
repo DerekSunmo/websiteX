@@ -69,9 +69,9 @@ export function Sidebar({ className }: { className?: string }) {
   const t = useTranslations('Root.Metadata')
 
   return (
-    //<aside
-    //  className={clsxm('md:mx-0 md:w-44 md:flex-shrink-0 md:px-0', className)}
-   // >
+    /*<aside
+      className={clsxm('md:mx-0 md:w-44 md:flex-shrink-0 md:px-0', className)}
+    >
       <motion.div className="md:sticky md:top-12 md:pr-4" layout layoutRoot>
         <Link
           href="/"
@@ -89,7 +89,7 @@ export function Sidebar({ className }: { className?: string }) {
           >
             <Logo className="w-7 md:w-10" />
           </motion.span>
-        </Link>
+        </Link>*/
 
         <NavMenu />
 
